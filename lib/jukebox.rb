@@ -50,7 +50,9 @@ end
 def run 
   help
   puts "Please enter a command:"
-  command = gets.chomp 
-  case command
+  command = gets.chomp
   
+  case command
+    when "list"
+      
 end 
