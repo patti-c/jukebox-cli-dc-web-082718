@@ -51,5 +51,6 @@ def run
   help
   puts "Please enter a command:"
   command = gets.chomp 
+  case command
   
 end 
