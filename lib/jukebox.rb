@@ -37,7 +37,7 @@ def play(songs)
     end
   end 
   
-  if song_name.is_a? Integer
+  if song_name.to_i.is_a? Integer
     puts "Playing #{songs[song_name-1]}"
   end 
   
