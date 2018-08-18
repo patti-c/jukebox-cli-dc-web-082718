@@ -38,7 +38,7 @@ def play(songs)
   end 
   
   if song_name.to_i.is_a? Integer
-    puts "Playing #{songs[song_name-1]}"
+    puts "Playing #{songs[song_name.to_i - 1]}"
   end 
   
 end
