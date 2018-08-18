@@ -54,5 +54,5 @@ def run
   
   case command
     when "list"
-      
+      list
 end 
