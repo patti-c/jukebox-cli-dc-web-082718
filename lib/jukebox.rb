@@ -42,3 +42,14 @@ def play(songs)
   end 
   
 end
+
+def exit_jukebox
+  puts "Goodbye"
+end 
+
+def run 
+  help
+  puts "Please enter a command:"
+  command = gets.chomp 
+  
+end 
